@@ -1,0 +1,1219 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Zen Old Mincho', serif;
+    line-height: 1.7;
+    color: #666666;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 27px;
+    color: #666666;
+    font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.wrapper_02,table{
+    font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.inquiry p {
+    margin-top: 30px;
+}
+
+.kyousyou .midashi {
+    background: #1b1464;
+    color: #fff;
+}
+
+@media screen and (min-width: 750px) {
+
+    .f18 {
+        font-size: 18px;
+    }
+
+
+
+    /* HEADER
+------------------------------- */
+    .logo {
+        width: 131px;
+        margin-top:5px;
+        
+    }
+
+    .wrapper_02 {
+        background-image: url(../images/hed_gaiyou.jpg);
+        height: 300px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .wrapper_02 p {
+        font-size: 36px;
+        color: #000000;
+        /* top: 100px; */
+        /* left: 200px; */
+        width: 1100px;
+        margin: 0px auto;
+        padding-top: 100px;
+    }
+
+    .wrapper_inquiry {
+        background-image: url(../images/hed_otoiawase.jpg);
+
+    }
+
+    .wrapper_koukoku {
+        margin-top: 50px;
+        background-image: url(../images/hed_koukoku.jpg);
+
+    }
+
+    .wrapper_kyousou {
+        background-image: url(../images/hed_kyousou.jpg);
+        height: 100px;
+    }
+    
+    .wrapper_kouhou{
+        background-image: url(../images/hed_kouhou.jpg);
+        height: 100px;
+    }
+
+    .wrapper_inquiry p,
+    .wrapper_koukoku p,
+    .wrapper_kyousou p,
+    .wrapper_kouhou p{
+        text-align: center;
+    }
+    
+    .wrapper_kouhou p{
+        color:#fff;
+    }
+
+    .wrapper_kyousou p,.wrapper_kouhou p {
+        padding-top: 20px;
+    }
+
+    /* めいんなび
+------------------------------- */
+    .main-nav {
+        display: flex;
+        font-size: 18px;
+        text-transform: uppercase;
+        list-style: none;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .main-nav li {
+        border-right: 1px solid;
+        padding: 0 8px;
+    }
+
+    .main-nav li:nth-child(1) {
+        border-left: 1px solid;
+        padding-left: 8px;
+    }
+
+    .main-nav li:last-child {
+        padding-right: 8px;
+    }
+
+    .main-nav a {
+        color: #666666;
+    }
+
+    .main-nav a:hover {
+        opacity: 0.7;
+    }
+    
+    
+
+    /* ロゴを左に、ナビを右に
+------------------------------- */
+    .page-header {
+        display: flex;
+        max-width: 1100px;
+        margin: 10px auto;
+    }
+
+    .tel {
+        margin-left: auto;
+        text-align: right;
+        font-size:14px;
+    }
+
+    .contents {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .info h3,
+    .infotel h3,
+    .infopdf h3 {
+        font-size: 30px;
+        background-color: #1b1464;
+        text-align: center;
+        color: #fff;
+        margin-top: 30px;
+    }
+
+    .info .telbox {
+        width: 750px;
+        border: 1px solid #b2b2b2;
+        margin: 30px auto 0;
+        padding: 20px;
+        display: table;
+        text-align: center;
+    }
+
+    .info .telbox .telboxcell {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .infotel {
+        background: #e0dcdc;
+        padding: 60px 0;
+        margin-top: 50px;
+    }
+
+    .infotel p,
+    .infopdf p {
+        margin: 30px auto 0;
+        width: 600px;
+    }
+
+    .infotel p span,
+    .infopdf p span {
+        text-align: left;
+    }
+
+    .koukokuwrap {
+        position: relative;
+        margin: 50px auto 0;
+        text-align: right;
+    }
+
+    .koukokuwrap .koukokutext {
+        position: absolute;
+        font-size: 20px;
+        background: #990000;
+        color: #fff;
+        padding: 20px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .koukokuwrap .koukokutext span {
+        position: absolute;
+        left: 20px;
+        top: 40px;
+    }
+
+    .koukokuwrap .koukokulist {
+        width: 950px;
+        text-align: left;
+        margin: 0 141px;
+    }
+
+
+
+    .koukokuwrap .koukokulist p {
+        font-size: 33px;
+    }
+
+    .koukokuwrap .koukokulist span {
+        font-weight: bold;
+    }
+
+    .red {
+        color: #990000;
+    }
+
+    .telboxtime {
+        font-size: 26px;
+    }
+
+    .telboxtimetel {
+        font-size: 33px;
+    }
+
+    .telboxtext {
+        font-size: 18px;
+    }
+
+    .example,
+    .example02 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .contents {
+        margin-top: 30px;
+    }
+
+
+    .example02 {
+        margin-top: 40px;
+    }
+
+    .example .examplechild {
+        display: flex;
+        width: 350px;
+        height: 260px;
+    }
+
+    .example .examplechild img {
+        width: 200px;
+        height: 260px;
+    }
+
+    .example02 .examplechild {
+        width: 350px;
+
+        margin: 0 15px;
+    }
+
+    .example02 .examplechild .box {
+        height: 350px;
+    }
+
+    .example02 .examplechild:first-child {
+        margin-left: 0px;
+    }
+
+    .example02 .examplechild:last-child {
+        margin-right: 0px;
+    }
+
+    .example .examplechild .midashi {
+        position: relative;
+    }
+
+    .example .examplechild .midashi::after {
+        position: absolute;
+        content: "> More";
+        color: #990000;
+        top: 235px;
+        right: 0px;
+    }
+
+    .example .examplechild .midashi .read {
+        background: #1b1464;
+        padding: 10px;
+        color: #fff;
+    }
+
+    .example .examplechild .midashi .text {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .example li {
+        margin: 0 12px;
+    }
+
+
+    .example li:first-child {
+        margin-left: 0px;
+    }
+
+    .example li:last-child {
+        margin-right: 0px;
+    }
+
+    .example .examplechild .img {
+        width: 200px;
+    }
+
+    .example .examplechild .midashi {
+        width: 150px;
+    }
+
+    .example02 .examplechild .midashi {
+        background: #1b1464;
+        color: #fff;
+        padding: 2px 11px;
+        height: 125px;
+    }
+
+    .example02 .examplechild .midashi .read {
+        border-bottom: 1px solid;
+        font-size: 25px;
+    }
+
+    .example02 .examplechild .midashi .f24 {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+
+    /* 会社概要
+------------------------------- */
+    table {
+        width: 1100px;
+        margin: 0 auto;
+        vertical-align: middle;
+    }
+
+    tr {
+        line-height: 20px;
+        letter-spacing: 0.07em;
+    }
+
+    th {
+        width: 250px;
+        padding: 20px 0 18px;
+        background-color: #e0dcdc;
+        font-size: 16px;
+        text-align: center;
+        vertical-align: middle;
+        border-top: 1px solid #990000;
+    }
+
+    td {
+        padding: 20px 20px 18px 40px;
+        background-color: #fff;
+        border-top: 1px solid #990000;
+    }
+
+    tr:last-child th {
+        border-bottom: 1px solid #990000;
+
+    }
+
+    tr:last-child td {
+        border-bottom: 1px solid #990000;
+
+    }
+
+    .gaiyouimg {
+        margin-top: 60px;
+    }
+
+    .gaiyouimg img {
+        width: 1062px;
+    }
+
+    .map {
+        position: relative;
+        margin: 100px auto 0;
+        text-align: right;
+    }
+
+    .map iframe {
+        width: 950px;
+        height: 600px;
+    }
+
+    .map p {
+        position: absolute;
+        font-size: 20px;
+        background: #1b1464;
+        color: #fff;
+        padding: 20px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .map p span {
+        position: absolute;
+        left: 20px;
+        top: 25px;
+    }
+
+    .map img {
+        width: 950px;
+    }
+
+    .inquiry {
+        background: #e0dcdc;
+        text-align: center;
+        padding: 60px 0;
+        margin-top: 60px;
+    }
+
+
+    .width1100 {
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .inquiryinfo {
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .inquiryinfo a {
+        background: #666666;
+        color: #fff;
+        font-size: 34px;
+        padding: 10px;
+
+    }
+
+    .inquiryinfo a:hover {
+        background: #fff;
+        color: #666666;
+    }
+
+    .kyousyou {
+        margin-top: 90px;
+    }
+
+    .kyousyou .midashi {
+        font-size: 34px;
+        width: 500px;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+
+    .kyousyou03 {
+        margin: 70px auto;
+    }
+
+
+    .kyoubou ul {
+        display: table;
+        width: 1122px;
+        margin-top: 50px;
+    }
+
+    .kyoubou ul li {
+        display: table-cell;
+        width: 540px;
+    }
+
+    .kyoubou ul li p {
+        width: 540px;
+        margin-top: 10px;
+    }
+
+    .kyouboutext {
+        margin-top: 10px;
+    }
+
+    .kyoubouwrap {
+        margin: 40px auto;
+        width: 960px;
+    }
+
+    .kyouboumerit {
+        display: table;
+            margin: 20px 0;
+        border-collapse: separate;
+        border-spacing: 12px 0;
+
+    }
+
+    .kyouboumerit .kyouboumeritbtn {
+        display: table-cell;
+        background: #1b1464;
+        padding: 20px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .kyouboumerit .kyouboumerittext {
+        display: table-cell;
+        font-size: 36px;
+        vertical-align: middle;
+    }
+    
+    .kyouboumerit .kyouboumerittext span{
+        background: #dde07c;
+    }
+
+    .slidercontent {
+        margin-top: 40px;
+    }
+
+    .slider img {
+        width: 100%;
+        /*スライダー内の画像を横幅100%に*/
+        height: auto;
+    }
+
+    /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+    .slider .slick-slide {
+        margin: 0 10px;
+        /*スライド左右の余白調整*/
+    }
+
+
+    /*========= レイアウトのためのCSS ===============*/
+
+
+    .slidercontent ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+
+    .slidercontent a:hover,
+    .slidercontent a:active {
+        text-decoration: none;
+    }
+
+
+    .hide_pc {
+        display: none;
+    }
+
+    /* フッター
+------------------------------- */
+    footer {
+        width: 1100px;
+        font-size: 14px;
+        margin: 50px auto;
+        border-top: 3px solid #990000;
+    }
+
+    footer .list {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    footer .list ul {
+        width: 350px;
+        margin: 0 70px;
+    }
+
+    footer .detail {
+        color: #1b1464;
+        margin: 60px 70px 0;
+    }
+
+    footer .detail a {
+        color: #1b1464;
+    }
+
+    footer p {
+        border-top: 3px solid #990000;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    footer p span {
+        font-size: 9px;
+    }
+
+}
+
+/* ------------------------------
+モバイル版ここからmediaクエリ
+------------------------------- */
+@media screen and (max-width: 750px) {
+
+
+    .hide_sp {
+        display: none;
+    }
+    
+    .f11{
+        font-size:11px;
+    }
+
+    .page-header {
+        height: 63px;
+        background: #fff;
+    }
+
+    .logo {
+        width: 130px;
+        /* margin: 8px 7px 14px; */
+        position: fixed;
+        z-index: 2;
+        top: 7px;
+        left: 7px;
+    }
+
+    .tel {
+        position: fixed;
+        z-index: 3;
+        top: 15px;
+        right: 18%;
+    }
+    
+    .timetext {
+        position: fixed;
+        z-index: 3;
+        top: 15px;
+        right: 13%;
+        line-height: 1.4;
+        font-size:12px;
+    }
+
+    .tel img {
+        width: 50%;
+    }
+
+    /*　ハンバーガーボタン　*/
+
+    .hamburger {
+        display: block;
+        position: fixed;
+        z-index: 3;
+        right: 13px;
+        top: 12px;
+        width: 42px;
+        height: 42px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .hamburger span {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        left: 6px;
+        background: #555;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+    }
+
+    .hamburger span:nth-child(1) {
+        top: 10px;
+    }
+
+    .hamburger span:nth-child(2) {
+        top: 20px;
+    }
+
+    .hamburger span:nth-child(3) {
+        top: 30px;
+    }
+
+    /* ナビ開いてる時のボタン */
+    .hamburger.active span:nth-child(1) {
+        top: 16px;
+        left: 6px;
+        background: #fff;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .hamburger.active span:nth-child(2),
+    .hamburger.active span:nth-child(3) {
+        top: 16px;
+        background: #fff;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    nav.globalMenuSp {
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        width: 100%;
+        opacity: 0;
+        transition: opacity .6s ease, visibility .6s ease;
+    }
+
+    nav.globalMenuSp ul {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+
+    nav.globalMenuSp ul li {
+        list-style-type: none;
+        padding: 0;
+        width: 100%;
+        transition: .4s all;
+    }
+
+    nav.globalMenuSp ul li:last-child {
+        padding-bottom: 0;
+    }
+
+    nav.globalMenuSp ul li:hover {
+        background: #ddd;
+    }
+
+    nav.globalMenuSp ul li a {
+        display: block;
+        color: #fff;
+        padding: 1em 0;
+        text-decoration: none;
+    }
+
+    /* このクラスを、jQueryで付与・削除する */
+    nav.globalMenuSp.active {
+        opacity: 100;
+
+    }
+
+    .globalHeaderBg {
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 65px;
+        background-color: #fff;
+        opacity: 1;
+    }
+
+    .example .examplechild {
+        display: flex;
+        width: 100%;
+    }
+
+    .example li {
+        margin-top: 30px;
+    }
+
+    .example .examplechild .img {
+        width: 55%;
+    }
+
+    .example .examplechild .img img {
+        width: 100%;
+    }
+
+    .example .examplechild .midashi {
+        position: relative;
+        width: 45%;
+    }
+
+    .example .examplechild .midashi .read {
+        background: #1b1464;
+        color: #fff;
+        padding: 7px;
+        font-size: 16px;
+
+    }
+
+    .example .examplechild .midashi::after {
+        position: absolute;
+        content: "> More";
+        color: #990000;
+        bottom: 7px;
+        right: 10px;
+    }
+
+
+    .example .examplechild .midashi .text {
+        font-size: 12px;
+        padding: 15px;
+
+    }
+
+    h2 {
+        margin-top: 10px;
+        padding-left: 4px;
+    }
+
+    .example02 .box {
+        width: 100%;
+
+    }
+
+    .example02 .box img {
+        width: 100%;
+
+    }
+
+
+    .example02 .examplechild .midashi {
+        background: #1b1464;
+        color: #fff;
+        padding: 8px 11px;
+    }
+
+    .example02 .examplechild .midashi .read {
+        border-bottom: 1px solid;
+        font-size: 25px;
+    }
+
+    .example02 .examplechild .midashi .f24 {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+
+    /* 会社概要
+------------------------------- */
+    table {
+        margin: 0 auto;
+        vertical-align: middle;
+        font-size: 13px;
+    }
+
+    tr {
+        line-height: 20px;
+        letter-spacing: 0.07em;
+    }
+
+    th {
+        width: 30%;
+        padding: 20px 0 18px;
+        background-color: #e0dcdc;
+        text-align: center;
+        vertical-align: middle;
+        border-top: 1px solid #990000;
+    }
+
+    td {
+        padding: 20px 20px 18px 40px;
+        background-color: #fff;
+        border-top: 1px solid #990000;
+    }
+
+    tr:last-child th {
+        border-bottom: 1px solid #990000;
+
+    }
+
+    tr:last-child td {
+        border-bottom: 1px solid #990000;
+
+    }
+
+    .gaiyouimg {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .map {
+        margin: 20px auto;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    .map p {
+        position: relative;
+        margin: 20px auto;
+        font-size: 13px;
+        background: #1b1464;
+        color: #fff;
+        padding: 20px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .map p span {
+        position: absolute;
+        top: 25%;
+        left: 23%;
+    }
+
+    .inquiry {
+        background: #e0dcdc;
+        text-align: center;
+        padding: 30px 0;
+        margin-top: 30px;
+    }
+
+    .inquiry p {
+        font-size: 13px;
+        margin: 30px auto;
+    }
+
+    .inquiryinfo {
+        margin: 30px auto;
+
+    }
+
+    .inquiryinfo a {
+        background: #666666;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px;
+
+    }
+
+    .inquiryinfo a:hover {
+        background: #fff;
+        color: #666666;
+    }
+
+    .wrapper_02 {
+        background-image: url(../images/hed_gaiyou_s.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .wrapper_inquiry {
+        background-image: url(../images/hed_otoiawase_s.jpg);
+
+    }
+
+    .wrapper_koukoku {
+        background-image: url(../images/hed_koukoku_s.jpg);
+
+    }
+
+    .wrapper_kyousou {
+        background-image: url(../images/hed_kyousou_s.jpg);
+    }
+    
+    .wrapper_kouhou{
+        background-image: url(../images/hed_kouhou_s.jpg);
+    }
+
+    .wrapper_02 p {
+        font-size: 18px;
+        color: #000000;
+        position: absolute;
+        top: 42%;
+        left: 10%;
+        /* width: 1100px; */
+        margin: 0px auto;
+    }
+    
+    .wrapper_kouhou p{
+        color:#fff;
+            left: 36%;
+    }
+
+    .info h3,
+    .infotel h3,
+    .infopdf h3 {
+        font-size: 22px;
+        background-color: #1b1464;
+        text-align: center;
+        color: #fff;
+        margin-top: 30px;
+    }
+
+    .info .telbox {
+        border: 1px solid #b2b2b2;
+        margin: 30px auto 0;
+        padding: 20px;
+        text-align: center;
+        width: 80%;
+    }
+
+    .info .telbox .telboxcell {}
+
+    .infotel {
+        background: #e0dcdc;
+        text-align: center;
+        padding: 0px 0 30px;
+    }
+
+    .infopdf {
+        text-align: center;
+    }
+
+    .infotel p,
+    .infopdf p {
+        margin-top: 30px;
+    }
+
+    .koukokuwrap .koukokulist {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .koukokuwrap .koukokulist ul li {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .koukokuwrap .koukokulist p {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .koukokuwrap .koukokulist span {
+        font-weight: bold;
+    }
+
+    .inquiryinfo {
+        text-align: center;
+    }
+
+    .red {
+        color: #990000;
+    }
+
+    .telboxtime {
+        font-size: 18px;
+    }
+
+    .telboxtimetel {
+        font-size: 24px;
+    }
+
+    .telboxtext {
+        font-size: 14px;
+    }
+
+    .telicon {
+        width: 10%;
+        margin: 20px auto;
+    }
+
+    .koukokuwrap {
+        margin: 20px auto;
+    }
+
+    .koukokuwrap .koukokutext {
+        position: relative;
+        margin: 20px auto;
+        font-size: 13px;
+        background: #990000;
+        color: #fff;
+        padding: 20px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .koukokuwrap .koukokutext span {
+        position: absolute;
+        top: 37%;
+        left: 23%;
+    }
+
+    .kyousyou {
+        margin-top: 30px;
+    }
+
+    .kyousyou .midashi {
+        font-size: 24px;
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+
+    .f18 {
+        font-size: 14px;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .kyousyou03 {
+        margin-bottom: 30px;
+    }
+    
+    .kyoubouimg{
+        width:100%;
+         margin-top:10px;
+    }
+    
+    .kyouboutext{
+        margin-top:10px;
+    }
+    
+    .kyoubouwrap{
+        width:95%;
+        margin:10px auto;
+        text-align: center;
+    }
+    
+    .kyouboumerit .kyouboumeritbtn {
+        background: #1b1464;
+        padding: 20px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin:10px auto;
+    }
+
+    .kyouboumerit .kyouboumerittext {
+        font-size: 24px;
+    }
+    
+    .kyouboumerit .kyouboumerittext span{
+        background: #dde07c;
+    }
+
+
+    /* フッター
+------------------------------- */
+
+    footer {
+        color: #fff;
+        background: #1b1464;
+    }
+
+    footer ul li {
+        display: table;
+        float: left;
+        width: 50%;
+    }
+
+    footer ul li a {
+        display: table-cell;
+        width: 100%;
+        padding: 12px 3% 12px 6%;
+        border-right: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        vertical-align: middle;
+        text-align: center;
+        height: 30px;
+        color:#fff;
+    }
+
+    footer .detail {
+        border-bottom: 1px solid #cccccc;
+
+        padding: 20px;
+        clear: both;
+    }
+
+    footer .detail a {
+        color: #fff;
+    }
+
+    footer .detailtext {
+        background: #fff;
+        color: #666666;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    footer .copy {
+        border-top: 2px solid #990000;
+        font-size: 9px;
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 8px;
+    }
+
+}
